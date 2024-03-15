@@ -90,6 +90,10 @@ body {
   text-transform: uppercase;
 }
 
+.link {
+  text-decoration: none;
+}
+
 #cta-link:hover {
   background-color: #0f86ef;
 }
@@ -280,10 +284,6 @@ main {
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.25rem;
-}
-
-.challenge-item-details.expanded .challenge-item-details-icon {
-  transform: rotate(180deg);
 }
 
 .challenge-item-description {
